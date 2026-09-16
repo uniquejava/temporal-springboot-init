@@ -49,10 +49,10 @@ public class CustomProjectGenerationConfiguration {
         return new CopyDirectoryProjectContributor("templates/js", "src/main/resources/static");
     }
 
-    @Bean
-    ProjectContributor deleteDefaultTestProjectContributor() {
-        return new DeleteFileProjectContributor("src/test/java/com/sample/demo/DemoApplicationTests.java");
-    }
+//    @Bean
+//    ProjectContributor deleteDefaultTestProjectContributor() {
+//        return new DeleteFileProjectContributor("src/test/java/com/sample/demo/DemoApplicationTests.java");
+//    }
 
 //    @Bean
 //    ProjectContributor addWorkflowTestProjectContributor() {

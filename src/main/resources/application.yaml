@@ -21,8 +21,8 @@ initializr:
     - id: 2.7.18
       name: 2.7.18
       default: false
-    - id: 3.4.2
-      name: 3.4.2
+    - id: 3.4.5
+      name: 3.4.5
       default: true
   types:
     - name: Maven Project
@@ -48,7 +48,7 @@ initializr:
           id: temporal
           groupId: io.temporal
           artifactId: temporal-spring-boot-starter
-          version: 1.27.1
+          version: 1.31.0
           description: Temporal SDK Spring Boot Starters
     - name: Web
       content:
